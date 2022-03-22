@@ -1,0 +1,29 @@
+ul {
+  background: #3399ff;
+  padding: 20px;
+}
+
+ul li {
+  background: #cce5ff;
+  color: darkblue;
+  margin: 5px;
+}
+
+body {
+  text-align: center;
+  background-color: #3399ff;
+}
+
+#page-wrap {
+  text-align: left;
+  width: 800px;
+  margin: 0 auto;
+}
+
+input {
+  width: 100%;
+}
+
+main > input {
+  width: 100%;
+}

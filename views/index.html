@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SQLite3 with Sequelize Example Starter</title>
+    <meta name="description" content="SQLite3 with Sequelize example starter" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../public/style.css" />
+  </head>
+  <body style="text-align:center;
+    background-color:#526ae5";>
+    
+    <header>
+      <h1 >
+        Movie Request Forum
+      </h1>
+    </header>
+
+    <main >
+      <form
+        action="/new"
+        method="POST"
+        enctype="application/x-www-form-urlencoded"
+      >
+        <input style="width:100%;"
+          name="user"
+          type="text"
+          maxlength="100"
+          value=""
+          placeholder="Movie & Year"
+        />
+        <button type="submit">Movie Request</button>
+      </form>
+      <section class="users">
+        <ul id="users"></ul>
+      </section>
+      <!-- <p><a href="/reset">Movie Request</a></p> -->
+    </main>
+    <footer>
+  <p>Author: Hege Refsnes</p>
+  <p><a href="mailto:hege@example.com">hege@example.com</a></p>
+</footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="/client.js"></script>
+  </body>
+</html>
